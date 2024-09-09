@@ -6,6 +6,7 @@ from kivy.uix.screenmanager import ScreenManager,Screen
 from kivy.uix.floatlayout import FloatLayout 
 from kivy.core.window import Window
 from kivy.animation import Animation
+from kivy.uix.image import Image
 
 anim_1 = Animation(pos_hint ={'y':0.55, "x":0.2}, duration = 0.5) + Animation(pos_hint ={'y':0.45, "x":0.2}, duration = 0.5)
 anim_1.repeat = True
